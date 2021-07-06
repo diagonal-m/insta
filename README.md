@@ -31,7 +31,7 @@ $ docker-compose exec my-app bash
 `--skip-coffee`: CoffeeScriptのセットアップをスキップ 
 
 ```bash
-$ rails new . -d mysql -s -J -T --skip-turbolinks --skip-coffee
+$ rails new . -d mysql -s --skip-turbolinks --skip-coffee
 ```
 
 `config/database.ymlを開きhostを変更する`
